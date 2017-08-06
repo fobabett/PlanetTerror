@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour {
 
 	Transform player;
-	public Transform myTransform;
 
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
